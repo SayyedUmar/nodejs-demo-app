@@ -1,0 +1,22 @@
+CREATE TABLE `advance_document_mapping` (
+  `advance_document_id` int(10) NOT NULL AUTO_INCREMENT,
+  `bill_detail_id` int(10) unsigned NOT NULL,
+  `advance_document_number` varchar(45) DEFAULT NULL,
+  `advance_payment` double DEFAULT NULL,
+  `advance_tds` double DEFAULT NULL,
+  `fiscal_year` int(11) DEFAULT NULL,
+  `created_on` datetime DEFAULT NULL,
+  `updated_on` datetime DEFAULT NULL,
+  `created_by` varchar(45) DEFAULT NULL,
+  `updated_by` varchar(45) DEFAULT NULL,
+  `doc_type` varchar(45) DEFAULT NULL,
+  `doc_date` date DEFAULT NULL,
+  `post_date` date DEFAULT NULL,
+  `profit_center` varchar(45) DEFAULT NULL,
+  `bussiness_place` varchar(45) DEFAULT NULL,
+  `payment_req_no` varchar(45) DEFAULT NULL,
+  `document_amount` double DEFAULT NULL,
+  PRIMARY KEY (`advance_document_id`),
+  KEY `FK_advance_details_Bill` (`bill_detail_id`),
+  CONSTRAINT `FK_advance_details_Bill` FOREIGN KEY (`bill_detail_id`) REFERENCES `billdetails` (`BillDetails_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1

@@ -1,0 +1,21 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# env file
+.env
+
+# misc
+package-lock.json
+
+# README.md
+README.md
+
+#public folder
+public/uploads/baDocs/*
+public/uploads/baGstDocs/*
+public/uploads/sapBlockUnblockDocs/*
+
+# config folders
+

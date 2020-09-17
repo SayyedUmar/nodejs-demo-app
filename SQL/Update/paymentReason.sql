@@ -1,0 +1,5 @@
+INSERT INTO `billhub`.`reason` (`Reason_code`, `Reason_Name`, `UpdatedBy`, `UpdatedOn`, `IsActive`, `Type`) VALUES ('Amount_Mismatch', 'Amount mismatch', '1', '2020-07-22 17:09:56', '1', 'payment');
+INSERT INTO `billhub`.`reason` (`Reason_code`, `Reason_Name`, `UpdatedBy`, `UpdatedOn`, `IsActive`, `Type`) VALUES ('Vendor_Block', 'Vendor block for posting in sap', '1', '2020-07-22 17:09:56', '1', 'payment');
+INSERT INTO `billhub`.`reason` (`Reason_code`, `Reason_Name`, `UpdatedBy`, `UpdatedOn`, `IsActive`, `Type`) VALUES ('Negative_Amount', 'Recovery amount is less than payable amount', '1', '2020-07-22 17:09:56', '1', 'payment');
+INSERT INTO `billhub`.`reason` (`Reason_code`, `Reason_Name`, `UpdatedBy`, `UpdatedOn`, `IsActive`, `Type`) VALUES ('Debit_Balance', 'Vendor has debit balance', '1', '2020-07-22 17:09:56', '1', 'payment');
+INSERT INTO `billhub`.`reason` (`Reason_code`, `Reason_Name`, `UpdatedBy`, `UpdatedOn`, `IsActive`, `Type`) VALUES ('No_Recovery', 'Recovery not given in payment request', '1', '2020-07-22 17:09:56', '1', 'payment');

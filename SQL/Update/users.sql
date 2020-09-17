@@ -1,0 +1,1 @@
+INSERT INTO `billhub`.`users` (`User_Name`, `Password`, `Token_Id`, `First_Name`, `Last_Name`, `Role_Id`, `Created_By`, `Created_On`, `Updated_By`, `Active`, `AuthToken`) VALUES ('sap_master', 'adf83e3ee9cfeeff0628e1594cbfaeb4', 'SAP_Master', 'SAP_Master', '', '6', '1', '2020-09-04 16:45:06', '74', '1', 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9');

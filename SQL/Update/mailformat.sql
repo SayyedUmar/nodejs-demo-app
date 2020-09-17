@@ -1,0 +1,5 @@
+insert into mailformat(mail_subject,mail_body,mail_titile,update_by,updated_on)
+values('BillHub - MEMO #MEMO_No# has been submitted','<p>Dear #Submitted_To_Name#,</p><p> A Memo #MEMO_No# has been reassigned to you by #PRE_Submitted_To_Name# </p><p>Memo has been Submitted by #BA_NAME# comprising of #n# no. of invoices.</p><p>On physical receipt of the invoices, please acknowledge these in BillHub with your login credentials at (https://billhub.mahindralogistics.com).Thanks &amp; Regards,</p><p>System Admin</p><p>This is a system generated email. Please do not reply to this.</p>','MEMO Reassigned',1,curdate());
+
+insert into mailformat(mail_subject,mail_body,mail_titile,update_by,updated_on)
+values('Payment Request Reject','<p>Dear Team,</p><p>Payment request #Request_Number# created by #user# for following invoices has been rejected.<br><br>#Reject_Invoice_Table#</p><p>Thanks &amp; Regards,</p><p>System Admin<br><br>This is a system generated email. Please do not reply to this.</p>','Payment Request Rejected',1,curdate());
